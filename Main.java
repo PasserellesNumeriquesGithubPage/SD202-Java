@@ -8,27 +8,21 @@ public class Main{
             System.out.print("How many person you want to add:");
             int numObj = scan.nextInt();
             scan.nextLine();
-                try{
                         if(numObj > 0 ){
                             for(int i = 0;i<numObj; i++){
                                 System.out.println("Please enter the name of The Thing for number "+ i);
                                 String name = scan.nextLine();
-                                persons.add(new Person(name));
+
                             }
                             for(int j = 0;j<numObj; j++){
                                 System.out.println(persons.get(j).getName());
                             }
                         }else if(numObj == 0){
                             scan.close();
-                            throw new ExceptionS("Zero is not valid to input");
+
                         }else{
                             scan.close();
-                            throw new ExceptionS("Negative Variable is not allowed");
                         }
-                }catch(ExceptionS e){
-                    System.out.println(e.getMessage());
-                }
-        
     } 
 }
 /*
