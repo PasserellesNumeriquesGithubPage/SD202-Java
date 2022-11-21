@@ -1,0 +1,17 @@
+Git init
+Git remote add
+Git config
+Git add
+Git commit
+Git push
+
+Git clone
+Git fetch
+Git pull
+Git checkout
+	-Changes branches
+Git branch
+	-Checks the branch of your repository
+Git log
+	-Checks the version of your repository
+
